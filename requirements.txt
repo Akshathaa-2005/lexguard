@@ -1,0 +1,12 @@
+pymongo
+psycopg2-binary
+pdfplumber
+python-docx
+transformers
+torch
+tqdm
+python-dotenv
+flask
+flask-cors
+groq
+supabase

@@ -1,0 +1,29 @@
+# Python
+backend/__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+backend/.env
+
+# Node.js
+frontend/node_modules/
+*.log
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
