@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@tailwindcss/oxide-darwin-arm64": "^4.2.2",
     "axios": "^1.13.6",
     "chart.js": "^4.5.1",
     "lucide-react": "^0.577.0",
