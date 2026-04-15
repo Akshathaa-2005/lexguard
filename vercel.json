@@ -1,9 +1,15 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "frontend/package.json", "use": "@vercel/next" },
-    { "src": "backend/requirements.txt", "use": "@vercel/python" }
-  ],
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "services": {
+    "frontend": {
+      "builder": "@vercel/next",
+      "entrypoint": "frontend/package.json"
+    },
+    "backend": {
+      "builder": "@vercel/python",
+      "entrypoint": "backend/app.py"
+    }
+  },
   "routes": [
     { "src": "/api/(.*)", "dest": "/backend/app.py" },
     { "src": "/(.*)", "dest": "/frontend/$1" }

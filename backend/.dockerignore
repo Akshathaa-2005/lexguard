@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.git/
+.gitignore
+node_modules/
+package-lock.json
+Dockerfile
